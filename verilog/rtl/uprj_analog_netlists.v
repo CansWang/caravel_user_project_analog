@@ -30,8 +30,8 @@
 `ifdef GL
     `default_nettype wire
     `include "gl/user_analog_project_wrapper.v"
-    `include "gl/user_analog_proj_example.v"
+    `include "gl/digital_top.v"
 `else
     `include "user_analog_project_wrapper.v"
-    `include "user_analog_proj_example.v"
+    `include "digital_top.v"
 `endif
