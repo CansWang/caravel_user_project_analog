@@ -2657,7 +2657,7 @@ rect -100 704000 584100 704100
 rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
-use esd_cell  esd_cell_2 ~/proj/caravel_user_project_analog/gds/final_fix_v1
+use esd_cell  esd_cell_2 
 timestamp 1624002729
 transform -1 0 134600 0 -1 653978
 box -2400 -3178 2400 3178
@@ -2669,7 +2669,7 @@ use esd_cell  esd_cell_0
 timestamp 1624002729
 transform -1 0 39428 0 -1 654418
 box -2400 -3178 2400 3178
-use digital_top  digital_top_0 ~/proj/caravel_user_project_analog/gds/final_fix_v1/./
+use digital_top  digital_top_0 
 timestamp 1624143230
 transform 0 -1 509468 1 0 534566
 box -38 -49 110054 180535
@@ -4032,7 +4032,4 @@ flabel metal2 s 6434 -800 6546 480 0 FreeSans 1400 90 0 0 wbs_we_i
 port 663 nsew
 << properties >>
 string FIXED_BBOX 0 0 584000 704000
-string GDS_FILE user_analog_project_wrapper_empty.gds
-string GDS_START 146
-string GDS_END 142790
 << end >>
